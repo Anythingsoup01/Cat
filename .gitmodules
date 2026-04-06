@@ -1,0 +1,3 @@
+[submodule "vendor/Prebuild"]
+	path = vendor/Prebuild
+	url = https://github.com/Anythingsoup01/Prebuild

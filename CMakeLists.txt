@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 4.3.1)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+project(cat-wks LANGUAGES CXX)
+add_subdirectory(Cat)
+add_subdirectory(CatNip)
+add_subdirectory(vendor/Prebuild)
