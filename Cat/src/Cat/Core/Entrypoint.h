@@ -6,7 +6,8 @@ bool g_ApplicationRunning = false;
 namespace Cat {
 
 int Main(int argc, char **argv) {
-  // Initiialize Logger
+  Log::Init();
+
   g_ApplicationRunning = true;
   while (g_ApplicationRunning) {
     auto app = CreateApplication({argc, argv});

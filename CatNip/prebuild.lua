@@ -11,10 +11,12 @@ Project = {
   includedirs = {
     "src",
     "${WORKSPACEDIR}Cat/src",
+    "${WORKSPACEDIR}vendor/spdlog/include",
   },
 
   links = {
     "Cat",
   },
+
 }
 

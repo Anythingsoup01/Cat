@@ -1,3 +1,6 @@
 [submodule "vendor/Prebuild"]
 	path = vendor/Prebuild
 	url = https://github.com/Anythingsoup01/Prebuild
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog

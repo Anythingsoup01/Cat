@@ -8,20 +8,19 @@ namespace Cat {
 Application::Application(const ApplicationSpecification &spec)
   : m_Specification(spec) {
 
-  printf("Application Start\n");
+  C_API_INFO("Application Initialized");
 
 }
 
 Application::~Application() {
 
-  printf("Application Closed\n");
+  C_API_INFO("Application Update");
 
 }
 
 void Application::Run() {
   m_Running = true;
   while (m_Running) {
-    printf("Application Update\n");
   }
 }
 
