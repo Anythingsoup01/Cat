@@ -3,6 +3,7 @@
 // C++ Standard Libraries
 #include <string>
 #include <iostream>
+#include <functional>
 
 
 // C Standard Libraries

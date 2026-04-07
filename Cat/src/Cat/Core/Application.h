@@ -1,5 +1,9 @@
 #pragma once
 
+#include "Window.h"
+
+#include "Event/ApplicationEvent.h"
+
 namespace Cat {
 
 struct ApplicationCommandlineArgs {
@@ -26,6 +30,14 @@ public:
 
   void Run();
 private:
+  void OnEvent(Event &e);
+  bool OnWindowClose(WindowCloseEvent &e);
+
+
+private:
+  Window m_Window;
+
+
   ApplicationSpecification m_Specification;
   bool m_Running;
 };
